@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35617.110 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSemanticKernel", "LearnSemanticKernel\LearnSemanticKernel.csproj", "{8D297D6F-7D62-4E0D-BDBC-6014AB07E1EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnSemanticKernelEmbedding", "LearnSemanticKernelEmbedding\LearnSemanticKernelEmbedding.csproj", "{35C9AAA0-FF25-49F8-B318-23801B649B51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +16,12 @@ Global
 		{8D297D6F-7D62-4E0D-BDBC-6014AB07E1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D297D6F-7D62-4E0D-BDBC-6014AB07E1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D297D6F-7D62-4E0D-BDBC-6014AB07E1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D297D6F-7D62-4E0D-BDBC-6014AB07E1EA}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
+               {8D297D6F-7D62-4E0D-BDBC-6014AB07E1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+                {35C9AAA0-FF25-49F8-B318-23801B649B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {35C9AAA0-FF25-49F8-B318-23801B649B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {35C9AAA0-FF25-49F8-B318-23801B649B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {35C9AAA0-FF25-49F8-B318-23801B649B51}.Release|Any CPU.Build.0 = Release|Any CPU
+        EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
